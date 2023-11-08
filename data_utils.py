@@ -142,6 +142,9 @@ class ABSADatesetReader:
             'laptop': {
                 'train': './datasets/semeval14/Laptops_Train.xml.seg',
                 'test': './datasets/semeval14/Laptops_Test_Gold.xml.seg'
+            },
+            'restaurant16': {
+                'train': './datasets/semeval16/Restaurants_Train.xml.seg',
             }
         }
         text = ABSADatesetReader.__read_text__([fname[dataset]['train'], fname[dataset]['test']])

@@ -79,5 +79,10 @@ if __name__ == '__main__':
     opt.device = torch.device('cpu')
 
     inf = Inferer(opt)
-    t_probs = inf.evaluate('great food but the service was dreadful !', 'food')
+    t_probs = inf.evaluate('great food but the service was dreadful !', 'service')    
+
+    print(t_probs)
     print(t_probs.argmax(axis=-1))
+
+
+

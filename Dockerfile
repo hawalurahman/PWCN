@@ -20,6 +20,6 @@ RUN conda install -y pytorch=1.4.0 spacy=2.3.5 numpy=1.19.2 scikit-learn
 COPY . /app
 
 # Specify the command to run your application
-CMD python train.py --model_name pwcn_dep --dataset laptop
+CMD tail -f /dev/null
 # CMD python train.py --model_name pwcn_dep --dataset restaurant
 # docker build -t tes:v1 .
