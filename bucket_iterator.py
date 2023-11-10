@@ -10,6 +10,7 @@ class BucketIterator(object):
         self.sort = sort
         self.batches = self.sort_and_pad(data, batch_size)
         self.batch_len = len(self.batches)
+        print(self.batch_len)
 
     def sort_and_pad(self, data, batch_size):
         num_batch = int(math.ceil(len(data) / batch_size))
@@ -19,7 +20,7 @@ class BucketIterator(object):
             sorted_data = data
         batches = []
         for i in range(num_batch):
-            batches.append(self.pad_data(sorted_data[i*batch_size : (i+1)*batch_size]))
+            batches.append(self.pad_data(sorted_data[i*batch_size : (i+1)*batch_size]))     
         return batches
 
     @staticmethod

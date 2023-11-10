@@ -144,7 +144,8 @@ class ABSADatesetReader:
                 'test': './datasets/semeval14/Laptops_Test_Gold.xml.seg'
             },
             'restaurant16': {
-                'train': './datasets/semeval16/Restaurants_Train.xml.seg',
+                'train': './datasets/semeval16/restaurant_2016_training_coba_coba.xml.seg',
+                'test': './datasets/semeval16/restaurant_2016_testing_gold_coba_coba.xml.seg'
             }
         }
         text = ABSADatesetReader.__read_text__([fname[dataset]['train'], fname[dataset]['test']])

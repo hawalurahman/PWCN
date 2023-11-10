@@ -16,7 +16,7 @@ from models import LSTM, BiLSTMAttn, AOA, PWCN_POS, PWCN_DEP
 class Instructor:
     def __init__(self, opt):
         self.opt = opt
-
+        print(self.opt)
         absa_dataset = ABSADatesetReader(dataset=opt.dataset, embed_dim=opt.embed_dim)
         self.train_data_loader = BucketIterator(data=absa_dataset.train_data, batch_size=opt.batch_size, shuffle=True)
         self.test_data_loader = BucketIterator(data=absa_dataset.test_data, batch_size=opt.batch_size, shuffle=False)

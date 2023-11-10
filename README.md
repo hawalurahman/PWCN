@@ -17,7 +17,7 @@
 * Download pretrained GloVe embeddings with this [link](http://nlp.stanford.edu/data/wordvecs/glove.840B.300d.zip) and extract `glove.840B.300d.txt` into `glove/`.
 * Train with command, optional arguments could be found in [train.py](/train.py)
 ```bash
-python train.py --model_name pwcn_dep --dataset laptop
+python train.py --model_name pwcn_dep --dataset restaurant16
 ```
 * Infer with [infer.py](/infer.py)
 
