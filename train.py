@@ -16,8 +16,8 @@ from models import LSTM, BiLSTMAttn, AOA, PWCN_POS, PWCN_DEP
 class Instructor:
     def __init__(self, opt):
         self.opt = opt
-        print(self.opt)
         absa_dataset = ABSADatesetReader(dataset=opt.dataset, embed_dim=opt.embed_dim)
+        print(absa_dataset.train_data, opt.dataset, opt.embed_dim, opt.batch_size)
         self.train_data_loader = BucketIterator(data=absa_dataset.train_data, batch_size=opt.batch_size, shuffle=True)
         self.test_data_loader = BucketIterator(data=absa_dataset.test_data, batch_size=opt.batch_size, shuffle=False)
 
@@ -148,7 +148,7 @@ if __name__ == '__main__':
     # Hyper Parameters
     parser = argparse.ArgumentParser()
     parser.add_argument('--model_name', default='lstm', type=str)
-    parser.add_argument('--dataset', default='laptop', type=str, help='restaurant, laptop')
+    parser.add_argument('--dataset', default='laptop', type=str, help='restaurant, laptop, restaurant16')
     parser.add_argument('--optimizer', default='adam', type=str)
     parser.add_argument('--initializer', default='xavier_uniform_', type=str)
     parser.add_argument('--learning_rate', default=0.001, type=float)

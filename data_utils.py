@@ -67,6 +67,7 @@ class Tokenizer(object):
         words = text.split()
         unknownidx = 1
         sequence = [self.word2idx[w] if w in self.word2idx else unknownidx for w in words]
+        # print(len(sequence))
         if len(sequence) == 0:
             sequence = [0]
         return sequence
@@ -119,9 +120,15 @@ class ABSADatesetReader:
             left_indices = tokenizer.text_to_sequence(text_left)
             polarity = int(polarity)+1
             dependency_dist = [float(d) for d in dist_lines[cnt*2+1].split()]
+            
             cnt += 1
+            # print(text_left, _, text_right)
+            # print(aspect)
+            # print(text_indices)
+            # print(dependency_dist, cnt*2+1)
 
             data = {
+                'text' : (text_left, _, text_right),
                 'text_indices': text_indices,
                 'aspect_indices': aspect_indices,
                 'left_indices': left_indices,
@@ -146,7 +153,7 @@ class ABSADatesetReader:
             'restaurant16': {
                 'train': './datasets/semeval16/restaurant_2016_training_coba_coba.xml.seg',
                 'test': './datasets/semeval16/restaurant_2016_testing_gold_coba_coba.xml.seg'
-            }
+            },
         }
         text = ABSADatesetReader.__read_text__([fname[dataset]['train'], fname[dataset]['test']])
         

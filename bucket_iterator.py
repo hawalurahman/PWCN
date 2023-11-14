@@ -10,7 +10,6 @@ class BucketIterator(object):
         self.sort = sort
         self.batches = self.sort_and_pad(data, batch_size)
         self.batch_len = len(self.batches)
-        print(self.batch_len)
 
     def sort_and_pad(self, data, batch_size):
         num_batch = int(math.ceil(len(data) / batch_size))
@@ -32,6 +31,7 @@ class BucketIterator(object):
         batch_dependency_dist = []
         max_len = max([len(t['text_indices']) for t in batch_data])
         for item in batch_data:
+            print(item['text'])
             text_indices, aspect_indices, left_indices, polarity, dependency_dist = \
                 item['text_indices'], item['aspect_indices'], item['left_indices'],\
                 item['polarity'], item['dependency_dist']
@@ -44,6 +44,7 @@ class BucketIterator(object):
             batch_left_indices.append(left_indices + left_padding)
             batch_polarity.append(polarity)
             batch_dependency_dist.append(dependency_dist + dependency_dist_padding)
+
         return { \
                 'text_indices': torch.tensor(batch_text_indices), \
                 'aspect_indices': torch.tensor(batch_aspect_indices), \
