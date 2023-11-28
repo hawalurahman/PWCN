@@ -79,7 +79,7 @@ if __name__ == '__main__':
     opt.device = torch.device('cpu')
 
     inf = Inferer(opt)
-    t_probs = inf.evaluate('great food but the service was dreadful !', 'service')    
+    t_probs = inf.evaluate('He not only makes his own homemade mozarella, but every pie is ultra fresh.', 'fresh')    
 
     print(t_probs)
     print(t_probs.argmax(axis=-1))

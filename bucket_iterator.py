@@ -31,7 +31,7 @@ class BucketIterator(object):
         batch_dependency_dist = []
         max_len = max([len(t['text_indices']) for t in batch_data])
         for item in batch_data:
-            print(item['text'])
+            # print(item['text'])
             text_indices, aspect_indices, left_indices, polarity, dependency_dist = \
                 item['text_indices'], item['aspect_indices'], item['left_indices'],\
                 item['polarity'], item['dependency_dist']
