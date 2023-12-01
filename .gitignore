@@ -1,2 +1,5 @@
 glove/*
 *.pkl
+*.gz
+pwcn_models_final/pwcn_models_final/archive.sh
+pwcn_models_final/pwcn_models_final/copy.sh

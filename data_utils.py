@@ -51,6 +51,7 @@ def build_embedding_matrix_bert(data_raw, embed_dim, type):
         print('loading word vectors ...')
         # embedding_matrix = np.zeros((len(data_raw), embed_dim))  # idx 0 and 1 are all-zeros
         # embedding_matrix[1, :] = np.random.uniform(-1/np.sqrt(embed_dim), 1/np.sqrt(embed_dim), (1, embed_dim))
+        embedding_matrix = []
         
         tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
         model = BertModel.from_pretrained("bert-base-uncased")
@@ -64,11 +65,10 @@ def build_embedding_matrix_bert(data_raw, embed_dim, type):
             outputs = model(**inputs)
 
             last_hidden_states = outputs[0]
-            print('done')
+            embedding_matrix[data_raw.index(each)] = last_hidden_states
 
-            all_sentence_token_embedding.append(last_hidden_states)
+            pickle.dump(last_hidden_states, open(embedding_matrix_file_name, 'wb'))
 
-        pickle.dump(all_sentence_token_embedding, open(embedding_matrix_file_name, 'wb'))
     return embedding_matrix
 
 
