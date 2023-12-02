@@ -1,8 +1,13 @@
 glove/*
-*.pkl
 *.gz
 pwcn_models_final/pwcn_models_final/archive.sh
 pwcn_models_final/pwcn_models_final/copy.sh
 models/__pycache__/pwcn_dep.cpython-36.pyc
 __pycache__/data_utils.cpython-36.pyc
 __pycache__/data_utils.cpython-36.pyc
+state_dict/pwcn_pos_restaurant.pkl
+state_dict/pwcn_dep_restaurant.pkl
+state_dict/lstm_restaurant.pkl
+state_dict/bilstmattn_restaurant.pkl
+state_dict/aoa_restaurant.pkl
+state_dict/aoa_laptop.pkl
