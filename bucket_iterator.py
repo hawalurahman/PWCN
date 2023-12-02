@@ -29,12 +29,16 @@ class BucketIterator(object):
         batch_left_indices = []
         batch_polarity = []
         batch_dependency_dist = []
+        batch_bert_embedding = []
         max_len = max([len(t['text_indices']) for t in batch_data])
         for item in batch_data:
             # print(item['text'])
-            text_indices, aspect_indices, left_indices, polarity, dependency_dist = \
+            text_indices, aspect_indices, left_indices, polarity, dependency_dist, bert_embedding = \
                 item['text_indices'], item['aspect_indices'], item['left_indices'],\
-                item['polarity'], item['dependency_dist']
+                item['polarity'], item['dependency_dist'], item['bert_embedding']
+            
+            print('INI DATA YANG KAMU CARI')
+            print(bert_embedding)
             text_padding = [0] * (max_len - len(text_indices))
             aspect_padding = [0] * (max_len - len(aspect_indices))
             left_padding = [0] * (max_len - len(left_indices))
@@ -44,13 +48,15 @@ class BucketIterator(object):
             batch_left_indices.append(left_indices + left_padding)
             batch_polarity.append(polarity)
             batch_dependency_dist.append(dependency_dist + dependency_dist_padding)
+            batch_bert_embedding.append(bert_embedding)
 
         return { \
                 'text_indices': torch.tensor(batch_text_indices), \
                 'aspect_indices': torch.tensor(batch_aspect_indices), \
                 'left_indices': torch.tensor(batch_left_indices), \
                 'polarity': torch.tensor(batch_polarity), \
-                'dependency_dist': torch.tensor(batch_dependency_dist)
+                'dependency_dist': torch.tensor(batch_dependency_dist), \
+                'bert_embedding': batch_bert_embedding,
                 }
 
     def __iter__(self):
