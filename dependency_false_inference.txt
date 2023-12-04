@@ -1,0 +1,876 @@
+expected:  negative
+result:  positive
+context:  menu - uneventful, small.
+aspect:  menu
+Distances: [0. 2. 1. 3.]
+While the potential opinion words are:  [uneventful]
+
+expected:  negative
+result:  positive
+context:  great food but the service was dreadful!
+aspect:  service
+Distances: [3.5 3.5 3.5 1.  0.  1.  2. ]
+The closest word to ' service ' is: the
+The closest second word to ' service ' is: service
+The closest third word to ' service ' is: was
+The closest fourth word to ' service ' is: dreadful!
+While the potential opinion words are:  [great, dreadful]
+
+expected:  positive
+result:  neutral
+context:  if you want good tasting, well seasoned latin food eat at cabana and you can't go wrong.
+aspect:  latin food
+Distances: [3.  3.  2.  4.  3.  2.  1.  0.  0.  1.  1.  2.  3.  8.5 8.5 8.5 8.5]
+The closest word to ' latin food ' is: latin
+The closest second word to ' latin food ' is: food
+The closest third word to ' latin food ' is: eat
+The closest fourth word to ' latin food ' is: at
+While the potential opinion words are:  [good, well, seasoned, latin, wrong]
+
+expected:  negative
+result:  positive
+context:  i was highly disappointed by their service and food.
+aspect:  service
+Distances: [4. 3. 3. 2. 1. 1. 0. 1. 1.]
+The closest word to ' service ' is: by
+The closest second word to ' service ' is: their
+The closest third word to ' service ' is: service
+The closest fourth word to ' service ' is: and
+While the potential opinion words are:  [highly, disappointed]
+
+expected:  negative
+result:  positive
+context:  i was highly disappointed by their service and food.
+aspect:  food
+Distances: [5. 4. 4. 3. 2. 2. 1. 2. 0.]
+While the potential opinion words are:  [highly, disappointed]
+
+expected:  neutral
+result:  positive
+context:  the food did take a few extra minutes to come, but the cute waiters' jokes and friendliness made up for it.
+aspect:  food
+Distances: [1. 0. 2. 1. 4. 3. 3. 2. 4. 3. 2. 2. 5. 5. 4. 5. 3. 4. 4. 2. 3.]
+The closest word to ' food ' is: the
+The closest second word to ' food ' is: food
+The closest third word to ' food ' is: did
+The closest fourth word to ' food ' is: take
+While the potential opinion words are:  [extra, cute]
+
+expected:  negative
+result:  positive
+context:  the waiters always look angry and even ignore their high-tipping regulars.
+aspect:  waiters
+Distances: [1. 0. 2. 1. 2. 2. 3. 2. 4. 5. 5.]
+The closest word to ' waiters ' is: the
+The closest second word to ' waiters ' is: waiters
+The closest third word to ' waiters ' is: always
+The closest fourth word to ' waiters ' is: look
+While the potential opinion words are:  [always, angry, even, high, tipping]
+
+expected:  negative
+result:  positive
+context:  our waiter was friendly and it is a shame that he didnt have a supportive staff to work with.
+aspect:  staff
+Distances: [6. 5. 4. 5. 5. 4. 3. 5. 4. 3. 3. 3. 3. 2. 2. 0. 1. 3. 2.]
+While the potential opinion words are:  [friendly, shame, have, supportive]
+
+expected:  negative
+result:  positive
+context:  the folding chair i was seated at was uncomfortable.
+aspect:  folding chair
+Distances: [1. 0. 0. 2. 2. 1. 2. 1. 2.]
+The closest word to ' folding chair ' is: chair
+The closest second word to ' folding chair ' is: i
+The closest third word to ' folding chair ' is: was
+The closest fourth word to ' folding chair ' is: seated
+While the potential opinion words are:  [uncomfortable]
+
+expected:  positive
+result:  neutral
+context:  even when the chef is not in the house, the food and service are right on target.
+aspect:  food
+Distances: [5. 4. 5. 4. 3. 4. 4. 6. 5. 3. 0. 1. 2. 2. 2. 4. 3.]
+The closest word to ' food ' is: and
+The closest second word to ' food ' is: service
+The closest third word to ' food ' is: are
+The closest fourth word to ' food ' is: right
+While the potential opinion words are:  [even, when, right]
+
+expected:  positive
+result:  neutral
+context:  even when the chef is not in the house, the food and service are right on target.
+aspect:  service
+Distances: [5. 4. 5. 4. 3. 4. 4. 6. 5. 3. 2. 1. 0. 2. 2. 4. 3.]
+The closest word to ' service ' is: and
+The closest second word to ' service ' is: service
+The closest third word to ' service ' is: are
+The closest fourth word to ' service ' is: right
+While the potential opinion words are:  [even, when, right]
+
+expected:  positive
+result:  neutral
+context:  everything from the eggs benedict to the mussels and even the hamburger were done well and very tasty.
+aspect:  mussels
+Distances: [4. 3. 3. 3. 2. 1. 1. 0. 3. 6. 6. 5. 6. 5. 6. 6. 7. 6.]
+The closest word to ' mussels ' is: to
+The closest second word to ' mussels ' is: the
+The closest third word to ' mussels ' is: mussels
+The closest fourth word to ' mussels ' is: and
+While the potential opinion words are:  [even, well, very]
+
+expected:  positive
+result:  negative
+context:  the falafal was rather over cooked and dried but the chicken was fine.
+aspect:  chicken
+Distances: [4. 3. 2. 4. 3. 3. 4. 4. 3. 1. 0. 1. 2.]
+The closest word to ' chicken ' is: the
+The closest second word to ' chicken ' is: chicken
+The closest third word to ' chicken ' is: was
+The closest fourth word to ' chicken ' is: fine.
+While the potential opinion words are:  [rather, cooked, fine]
+
+expected:  positive
+result:  neutral
+context:  their dinner specials are fantastic.
+aspect:  dinner specials
+Distances: [1. 0. 0. 1. 2.]
+While the potential opinion words are:  [fantastic]
+
+expected:  negative
+result:  positive
+context:  (the sashimi is cut a little thinly.
+aspect:  sashimi
+Distances: [3. 0. 1. 3. 2. 4. 3.]
+The closest word to ' sashimi ' is: is
+The closest second word to ' sashimi ' is: cut
+The closest third word to ' sashimi ' is: a
+The closest fourth word to ' sashimi ' is: little
+While the potential opinion words are:  [thinly]
+
+expected:  negative
+result:  neutral
+context:  but the meals were terrible.
+aspect:  meals
+Distances: [2. 1. 0. 1. 2.]
+The closest word to ' meals ' is: the
+The closest second word to ' meals ' is: meals
+The closest third word to ' meals ' is: were
+The closest fourth word to ' meals ' is: terrible.
+While the potential opinion words are:  [terrible]
+
+expected:  negative
+result:  positive
+context:  however, the service is absolutely horrible.
+aspect:  service
+Distances: [3. 3. 0. 1. 2. 4.]
+While the potential opinion words are:  [however, absolutely, horrible]
+
+expected:  negative
+result:  positive
+context:  when it came time to take the order the waiter gave us a hard time, walked away then came back with a paper and pen for us to write down what we wanted...excuse me but isn't that his job???
+aspect:  waiter
+Distances: [3. 3. 2. 3. 4. 3. 5. 4. 1. 0. 1. 2. 3. 3. 2. 3. 2. 3. 3. 2. 3. 3. 5. 4.  5. 5. 4. 4. 4. 3. 4. 5. 5. 4. 3. 2. 3. 3. 3.]
+The closest word to ' waiter ' is: the
+The closest second word to ' waiter ' is: waiter
+The closest third word to ' waiter ' is: gave
+The closest fourth word to ' waiter ' is: us
+While the potential opinion words are:  [when, hard, away, then, back, wanted, job]
+
+expected:  negative
+result:  neutral
+context:  we were wondering why they were there to make our dining experience miserable?
+aspect:  dining experience
+Distances: [5. 5. 4. 4. 4. 3. 4. 3. 2. 1. 0. 0. 1.]
+While the potential opinion words are:  [why, were, there, miserable]
+
+expected:  positive
+result:  neutral
+context:  we were so happy with our food and were even more thrilled when we saw the bill.
+aspect:  food
+Distances: [4. 3. 3. 2. 1. 1. 0. 4. 4. 7. 6. 5. 6. 6. 5. 7. 6.]
+The closest word to ' food ' is: with
+The closest second word to ' food ' is: our
+The closest third word to ' food ' is: food
+The closest fourth word to ' food ' is: and
+While the potential opinion words are:  [so, happy, even, more, thrilled, when]
+
+expected:  positive
+result:  neutral
+context:  we were so happy with our food and were even more thrilled when we saw the bill.
+aspect:  bill
+Distances: [4. 3. 5. 4. 5. 7. 6. 4. 2. 5. 4. 3. 2. 2. 1. 1. 0.]
+While the potential opinion words are:  [so, happy, even, more, thrilled, when]
+
+expected:  positive
+result:  neutral
+context:  first walking in the place seemed to have great ambience.
+aspect:  place
+Distances: [3. 2. 1. 1. 0. 3. 5. 4. 6. 5.]
+The closest word to ' place ' is: in
+The closest second word to ' place ' is: the
+The closest third word to ' place ' is: place
+The closest fourth word to ' place ' is: seemed
+While the potential opinion words are:  [first, great]
+
+expected:  positive
+result:  neutral
+context:  service is usually pretty good.
+aspect:  service
+Distances: [0. 1. 2. 3. 2.]
+The closest word to ' service ' is: is
+The closest second word to ' service ' is: usually
+The closest third word to ' service ' is: pretty
+The closest fourth word to ' service ' is: good.
+While the potential opinion words are:  [usually, pretty, good]
+
+expected:  negative
+result:  neutral
+context:  host and hostess was quite rude.
+aspect:  host
+Distances: [0. 1. 1. 1. 3. 2.]
+The closest word to ' host ' is: and
+The closest second word to ' host ' is: hostess
+The closest third word to ' host ' is: was
+The closest fourth word to ' host ' is: quite
+While the potential opinion words are:  [quite, rude]
+
+expected:  negative
+result:  positive
+context:  host and hostess was quite rude.
+aspect:  hostess
+Distances: [1. 2. 0. 2. 4. 3.]
+The closest word to ' hostess ' is: host
+The closest second word to ' hostess ' is: and
+The closest third word to ' hostess ' is: hostess
+The closest fourth word to ' hostess ' is: was
+While the potential opinion words are:  [quite, rude]
+
+expected:  negative
+result:  positive
+context:  i was highly disappointed by the food.
+aspect:  food
+Distances: [4. 3. 3. 2. 1. 1. 0.]
+While the potential opinion words are:  [highly, disappointed]
+
+expected:  negative
+result:  positive
+context:  the staff is arrogant, the prices are way high for brooklyn.
+aspect:  staff
+Distances: [1. 0. 1. 2. 3. 4. 3. 2. 4. 3. 4.]
+The closest word to ' staff ' is: the
+The closest second word to ' staff ' is: staff
+The closest third word to ' staff ' is: is
+The closest fourth word to ' staff ' is: arrogant,
+While the potential opinion words are:  [arrogant, way, high]
+
+expected:  negative
+result:  positive
+context:  the staff is arrogant, the prices are way high for brooklyn.
+aspect:  prices
+Distances: [5. 4. 3. 4. 3. 0. 1. 2. 4. 3. 4.]
+The closest word to ' prices ' is: are
+The closest second word to ' prices ' is: way
+The closest third word to ' prices ' is: high
+The closest fourth word to ' prices ' is: for
+While the potential opinion words are:  [arrogant, way, high]
+
+expected:  negative
+result:  positive
+context:  my vegetable risotto was burnt, and infused totally in a burnt flavor.
+aspect:  flavor
+Distances: [6. 6. 5. 5. 4. 5. 5. 3. 4. 2. 2. 0.]
+While the potential opinion words are:  [totally, burnt]
+
+expected:  positive
+result:  negative
+context:  the other times i've gone it's romantic date heaven, you can walk in get a booth by the windows, be treated like a vip in a not-crowded place, with great food and service.
+aspect:  service
+Distances: [16.5 16.5 16.5 16.5 16.5 16.5  6.   5.   8.   7.   6.   5.   5.   5.  4.   5.   5.   7.   6.   6.   8.   7.   5.   4.   3.   4.   6.   5.   2.   2.   1.   1.   0. ]
+While the potential opinion words are:  [other, 's, romantic, heaven, crowded, great]
+
+expected:  negative
+result:  positive
+context:  if your looking for nasty high priced food with a dash of ghetto scenery cheap bx ass this is the place to be!!
+aspect:  scenery
+Distances: [ 5.   5.   4.   5.   7.   7.   7.   6.   3.   3.   2.   1.   1.   0. 3.   4.   5.  11.5 11.5 11.5 11.5 11.5 11.5]
+The closest word to ' scenery ' is: of
+The closest second word to ' scenery ' is: ghetto
+The closest third word to ' scenery ' is: scenery
+The closest fourth word to ' scenery ' is: cheap
+While the potential opinion words are:  [nasty, high, priced, cheap, place]
+
+expected:  positive
+result:  negative
+context:  the french fries -- with the kalmata dip were terrific!
+aspect:  french fries -- with the kalmata dip
+Distances: [1. 0. 0. 0. 0. 0. 0. 0. 1. 2.]
+The closest word to ' french fries -- with the kalmata dip ' is: fries
+The closest second word to ' french fries -- with the kalmata dip ' is: --
+The closest third word to ' french fries -- with the kalmata dip ' is: with
+The closest fourth word to ' french fries -- with the kalmata dip ' is: the
+While the potential opinion words are:  [french, terrific]
+
+expected:  negative
+result:  positive
+context:  this place has the strangest menu and the restaurants tries too hard to make fancy food.
+aspect:  menu
+Distances: [3. 2. 1. 1. 1. 0. 2. 4. 3. 2. 4. 3. 5. 4. 6. 5.]
+The closest word to ' menu ' is: has
+The closest second word to ' menu ' is: the
+The closest third word to ' menu ' is: strangest
+The closest fourth word to ' menu ' is: menu
+While the potential opinion words are:  [strangest, too, hard, fancy]
+
+expected:  negative
+result:  positive
+context:  this place has the strangest menu and the restaurants tries too hard to make fancy food.
+aspect:  food
+Distances: [6. 5. 4. 6. 6. 5. 5. 5. 4. 3. 3. 2. 2. 1. 1. 0.]
+While the potential opinion words are:  [strangest, too, hard, fancy]
+
+expected:  negative
+result:  positive
+context:  the appetizers are ok, but the service is slow.
+aspect:  service
+Distances: [5. 4. 3. 4. 4. 4. 0. 1. 2.]
+While the potential opinion words are:  [ok, slow]
+
+expected:  positive
+result:  negative
+context:  don't get me wrong - sushi was good, just not fantastic.
+aspect:  sushi
+Distances: [4. 4. 3. 2. 2. 0. 1. 2. 3. 3. 4.]
+The closest word to ' sushi ' is: was
+The closest second word to ' sushi ' is: good,
+The closest third word to ' sushi ' is: just
+The closest fourth word to ' sushi ' is: not
+While the potential opinion words are:  [wrong, was, good, just, fantastic]
+
+expected:  positive
+result:  neutral
+context:  but, the filet mignon was not very good at all cocktail hour includes free appetizers (nice non-sushi selection).
+aspect:  non-sushi selection
+Distances: [4. 4. 5. 5. 4. 3. 4. 5. 4. 5. 4. 4. 3. 2. 2. 1. 0. 0.]
+While the potential opinion words are:  [very, good, at, includes, free, nice, sushi]
+
+expected:  positive
+result:  neutral
+context:  but, the filet mignon was not very good at all cocktail hour includes free appetizers (nice non-sushi selection).
+aspect:  appetizers
+Distances: [4. 4. 5. 5. 4. 3. 4. 5. 4. 5. 4. 4. 3. 2. 0. 1. 2. 3.]
+While the potential opinion words are:  [very, good, at, includes, free, nice, sushi]
+
+expected:  negative
+result:  positive
+context:  slow service, but when you're hanging around with groups of 10 or 20, who really notices?
+aspect:  service
+Distances: [1. 0. 1. 1. 2. 2. 2. 1. 2. 2. 3. 4. 5. 6. 6. 4.]
+The closest word to ' service ' is: slow
+The closest second word to ' service ' is: service,
+The closest third word to ' service ' is: but
+The closest fourth word to ' service ' is: when
+While the potential opinion words are:  [slow, when, around, really]
+
+expected:  negative
+result:  positive
+context:  the room is a little plain, but it's difficult to make such a small place exciting and i would not suggest that as a reason not to go.
+aspect:  room
+Distances: [ 1.  0.  1.  4.  3.  2.  2.  2.  3.  2.  3.  4.  3.  6.  6.  6.  5.  4. 14. 14. 14. 14. 14. 14. 14. 14. 14. 14.]
+The closest word to ' room ' is: the
+The closest second word to ' room ' is: room
+The closest third word to ' room ' is: is
+The closest fourth word to ' room ' is: a
+While the potential opinion words are:  [little, plain, difficult, small, exciting]
+
+expected:  positive
+result:  negative
+context:  prices even outside of restaurant week were great.
+aspect:  prices
+Distances: [0. 2. 1. 2. 4. 3. 1. 2.]
+The closest word to ' prices ' is: outside
+The closest second word to ' prices ' is: of
+The closest third word to ' prices ' is: restaurant
+The closest fourth word to ' prices ' is: week
+While the potential opinion words are:  [even, outside, great]
+
+expected:  positive
+result:  negative
+context:  a small, outdoor eating area makes for a private, comfortable space to study alone or meet up with friends.
+aspect:  space
+Distances: [5. 5. 5. 5. 5. 4. 3. 2. 2. 2. 0. 2. 1. 5. 4. 5. 5. 5. 6.]
+The closest word to ' space ' is: study
+The closest second word to ' space ' is: alone
+The closest third word to ' space ' is: or
+The closest fourth word to ' space ' is: meet
+While the potential opinion words are:  [small, outdoor, eating, private, comfortable, alone]
+
+expected:  negative
+result:  neutral
+context:  i have eaten here on a different occasion - the food is mediocre for the prices.
+aspect:  prices
+Distances: [5. 5. 4. 5. 5. 7. 7. 6. 4. 5. 4. 3. 2. 1. 1. 0.]
+While the potential opinion words are:  [eaten, here, different, mediocre]
+
+expected:  negative
+result:  positive
+context:  anyway, the owner was fake.
+aspect:  owner
+Distances: [3. 3. 0. 1. 2.]
+While the potential opinion words are:  [anyway, fake]
+
+44 items after inferred with our proposed idea
+expected:  negative
+result:  positive
+context:  menu - uneventful, small.
+aspect:  menu
+Distances: [0. 2. 1. 3.]
+While the potential opinion words are: [uneventful]
+
+expected:  negative
+result:  positive
+context:  great food but the service was dreadful!
+aspect:  service
+Distances: [1. 2. 3. 1. 0. 1. 1.]
+The closest word to 'service' is: great
+The closest second word to 'service' is: food
+The closest third word to 'service' is: but
+The closest fourth word to 'service' is: the
+While the potential opinion words are: [great, dreadful]
+
+expected:  positive
+result:  neutral
+context:  if you want good tasting, well seasoned latin food eat at cabana and you can't go wrong.
+aspect:  latin food
+Distances: [3. 3. 2. 1. 3. 2. 1. 1. 0. 0. 1. 2. 3. 2. 3. 3. 1.]
+The closest word to 'latin food' is: eat
+The closest second word to 'latin food' is: at
+The closest third word to 'latin food' is: cabana
+The closest fourth word to 'latin food' is: and
+While the potential opinion words are: [good, well, seasoned, wrong]
+
+expected:  negative
+result:  positive
+context:  i was highly disappointed by their service and food.
+aspect:  service
+Distances: [4. 3. 1. 1. 1. 1. 0. 1. 1.]
+The closest word to 'service' is: highly
+The closest second word to 'service' is: disappointed
+The closest third word to 'service' is: by
+The closest fourth word to 'service' is: their
+While the potential opinion words are: [highly, disappointed]
+
+expected:  negative
+result:  positive
+context:  i was highly disappointed by their service and food.
+aspect:  food
+Distances: [5. 4. 1. 1. 2. 2. 1. 2. 0.]
+The closest word to 'food' is: highly
+The closest second word to 'food' is: disappointed
+The closest third word to 'food' is: by
+The closest fourth word to 'food' is: their
+While the potential opinion words are: [highly, disappointed]
+
+expected:  neutral
+result:  positive
+context:  the food did take a few extra minutes to come, but the cute waiters' jokes and friendliness made up for it.
+aspect:  food
+Distances: [1. 0. 2. 1. 4. 3. 1. 2. 4. 3. 2. 2. 4. 1. 3. 4. 2. 3. 3. 3. 4.]
+The closest word to 'food' is: the
+The closest second word to 'food' is: food
+The closest third word to 'food' is: did
+The closest fourth word to 'food' is: take
+While the potential opinion words are: [extra, cute]
+
+expected:  negative
+result:  positive
+context:  the waiters always look angry and even ignore their high-tipping regulars.
+aspect:  waiters
+Distances: [1. 0. 1. 1. 1. 2. 1. 2. 4. 1. 5.]
+The closest word to 'waiters' is: the
+The closest second word to 'waiters' is: waiters
+The closest third word to 'waiters' is: always
+The closest fourth word to 'waiters' is: look
+While the potential opinion words are: [always, angry, even, high]
+
+expected:  negative
+result:  positive
+context:  our waiter was friendly and it is a shame that he didnt have a supportive staff to work with.
+aspect:  staff
+Distances: [6. 5. 4. 1. 5. 4. 3. 5. 1. 3. 3. 3. 3. 1. 2. 1. 0. 3. 2.]
+The closest word to 'staff' is: staff
+The closest second word to 'staff' is: to
+The closest third word to 'staff' is: work
+The closest fourth word to 'staff' is: with.
+While the potential opinion words are: [friendly, shame, have, supportive]
+
+expected:  negative
+result:  positive
+context:  the folding chair i was seated at was uncomfortable.
+aspect:  folding chair
+Distances: [1. 0. 0. 2. 2. 1. 2. 1. 1.]
+The closest word to 'folding chair' is: chair
+The closest second word to 'folding chair' is: i
+The closest third word to 'folding chair' is: was
+The closest fourth word to 'folding chair' is: seated
+While the potential opinion words are: [folding, uncomfortable]
+
+expected:  positive
+result:  neutral
+context:  even when the chef is not in the house, the food and service are right on target.
+aspect:  food
+Distances: [1. 1. 5. 4. 3. 1. 4. 6. 5. 3. 0. 0. 2. 2. 2. 1. 3.]
+The closest word to 'food' is: food
+The closest second word to 'food' is: and
+The closest third word to 'food' is: service
+The closest fourth word to 'food' is: are
+While the potential opinion words are: [even, when, right]
+
+expected:  positive
+result:  neutral
+context:  even when the chef is not in the house, the food and service are right on target.
+aspect:  service
+Distances: [1. 1. 5. 4. 3. 1. 4. 6. 5. 3. 2. 1. 0. 0. 2. 1. 3.]
+The closest word to 'service' is: service
+The closest second word to 'service' is: are
+The closest third word to 'service' is: right
+The closest fourth word to 'service' is: on
+While the potential opinion words are: [even, when, right]
+
+expected:  positive
+result:  neutral
+context:  everything from the eggs benedict to the mussels and even the hamburger were done well and very tasty.
+aspect:  mussels
+Distances: [3. 4. 6. 5. 2. 1. 1. 0. 3. 1. 5. 4. 4. 3. 1. 5. 1. 5.]
+The closest word to 'mussels' is: well
+The closest second word to 'mussels' is: and
+The closest third word to 'mussels' is: very
+The closest fourth word to 'mussels' is: tasty.
+While the potential opinion words are: [even, well, very]
+
+expected:  positive
+result:  negative
+context:  the falafal was rather over cooked and dried but the chicken was fine.
+aspect:  chicken
+Distances: [4. 3. 2. 1. 1. 1. 4. 4. 3. 1. 0. 1. 1.]
+The closest word to 'chicken' is: rather
+The closest second word to 'chicken' is: over
+The closest third word to 'chicken' is: cooked
+The closest fourth word to 'chicken' is: and
+While the potential opinion words are: [rather, over, cooked, fine]
+
+expected:  positive
+result:  neutral
+context:  their dinner specials are fantastic.
+aspect:  dinner specials
+Distances: [1. 0. 0. 1. 1.]
+While the potential opinion words are: [fantastic]
+
+expected:  negative
+result:  positive
+context:  (the sashimi is cut a little thinly.
+aspect:  sashimi
+Distances: [3. 0. 0. 3. 2. 4. 3.]
+The closest word to 'sashimi' is: is
+The closest second word to 'sashimi' is: cut
+The closest third word to 'sashimi' is: a
+The closest fourth word to 'sashimi' is: little
+While the potential opinion words are: [thinly]
+
+expected:  negative
+result:  neutral
+context:  but the meals were terrible.
+aspect:  meals
+Distances: [2. 1. 0. 1. 1.]
+The closest word to 'meals' is: the
+The closest second word to 'meals' is: meals
+The closest third word to 'meals' is: were
+The closest fourth word to 'meals' is: terrible.
+While the potential opinion words are: [terrible]
+
+expected:  negative
+result:  positive
+context:  however, the service is absolutely horrible.
+aspect:  service
+Distances: [1. 3. 0. 0. 2. 1.]
+While the potential opinion words are: [however, absolutely, horrible]
+
+expected:  negative
+result:  positive
+context:  when it came time to take the order the waiter gave us a hard time, walked away then came back with a paper and pen for us to write down what we wanted...excuse me but isn't that his job???
+aspect:  waiter
+Distances: [1. 5. 4. 5. 4. 3. 3. 2. 1. 0. 1. 2. 3. 1. 2. 6. 5. 1. 1. 6. 1. 7. 9. 8.
+ 9. 9. 8. 8. 8. 7. 8. 9. 9. 1. 6. 6. 7. 7. 7.]
+The closest word to 'waiter' is: when
+The closest second word to 'waiter' is: it
+The closest third word to 'waiter' is: came
+The closest fourth word to 'waiter' is: time
+While the potential opinion words are: [when, hard, away, then, back, wanted, job]
+
+expected:  negative
+result:  neutral
+context:  we were wondering why they were there to make our dining experience miserable?
+aspect:  dining experience
+Distances: [5. 5. 4. 1. 4. 1. 1. 3. 2. 1. 0. 0. 1.]
+While the potential opinion words are: [why, were, there, miserable]
+
+expected:  positive
+result:  neutral
+context:  we were so happy with our food and were even more thrilled when we saw the bill.
+aspect:  food
+Distances: [4. 3. 1. 1. 1. 1. 0. 4. 4. 1. 1. 1. 1. 6. 5. 7. 6.]
+The closest word to 'food' is: so
+The closest second word to 'food' is: happy
+The closest third word to 'food' is: with
+The closest fourth word to 'food' is: our
+While the potential opinion words are: [so, happy, even, more, thrilled, when]
+
+expected:  positive
+result:  neutral
+context:  we were so happy with our food and were even more thrilled when we saw the bill.
+aspect:  bill
+Distances: [4. 3. 1. 1. 5. 7. 6. 4. 2. 1. 1. 1. 1. 2. 1. 1. 0.]
+While the potential opinion words are: [so, happy, even, more, thrilled, when]
+
+expected:  positive
+result:  neutral
+context:  first walking in the place seemed to have great ambience.
+aspect:  place
+Distances: [1. 2. 1. 1. 0. 3. 5. 4. 1. 5.]
+The closest word to 'place' is: first
+The closest second word to 'place' is: walking
+The closest third word to 'place' is: in
+The closest fourth word to 'place' is: the
+While the potential opinion words are: [first, great]
+
+expected:  positive
+result:  neutral
+context:  service is usually pretty good.
+aspect:  service
+Distances: [0. 1. 1. 1. 1.]
+The closest word to 'service' is: is
+The closest second word to 'service' is: usually
+The closest third word to 'service' is: pretty
+The closest fourth word to 'service' is: good.
+While the potential opinion words are: [usually, pretty, good]
+
+expected:  negative
+result:  neutral
+context:  host and hostess was quite rude.
+aspect:  host
+Distances: [0. 1. 1. 1. 1. 1.]
+The closest word to 'host' is: and
+The closest second word to 'host' is: hostess
+The closest third word to 'host' is: was
+The closest fourth word to 'host' is: quite
+While the potential opinion words are: [quite, rude]
+
+expected:  negative
+result:  positive
+context:  host and hostess was quite rude.
+aspect:  hostess
+Distances: [1. 2. 0. 2. 1. 1.]
+The closest word to 'hostess' is: host
+The closest second word to 'hostess' is: and
+The closest third word to 'hostess' is: hostess
+The closest fourth word to 'hostess' is: was
+While the potential opinion words are: [quite, rude]
+
+expected:  negative
+result:  positive
+context:  i was highly disappointed by the food.
+aspect:  food
+Distances: [4. 3. 1. 1. 1. 1. 0.]
+The closest word to 'food' is: highly
+The closest second word to 'food' is: disappointed
+The closest third word to 'food' is: by
+The closest fourth word to 'food' is: the
+While the potential opinion words are: [highly, disappointed]
+
+expected:  negative
+result:  positive
+context:  the staff is arrogant, the prices are way high for brooklyn.
+aspect:  staff
+Distances: [1. 0. 1. 1. 3. 4. 3. 2. 1. 1. 4.]
+The closest word to 'staff' is: the
+The closest second word to 'staff' is: staff
+The closest third word to 'staff' is: is
+The closest fourth word to 'staff' is: arrogant,
+While the potential opinion words are: [is, arrogant, way, high]
+
+expected:  negative
+result:  positive
+context:  the staff is arrogant, the prices are way high for brooklyn.
+aspect:  prices
+Distances: [5. 4. 1. 1. 3. 0. 0. 2. 1. 1. 4.]
+The closest word to 'prices' is: are
+The closest second word to 'prices' is: way
+The closest third word to 'prices' is: high
+The closest fourth word to 'prices' is: for
+While the potential opinion words are: [is, arrogant, way, high]
+
+expected:  negative
+result:  positive
+context:  my vegetable risotto was burnt, and infused totally in a burnt flavor.
+aspect:  flavor
+Distances: [6. 6. 5. 5. 4. 5. 5. 3. 1. 2. 2. 1.]
+While the potential opinion words are: [totally, burnt]
+
+expected:  positive
+result:  negative
+context:  the other times i've gone it's romantic date heaven, you can walk in get a booth by the windows, be treated like a vip in a not-crowded place, with great food and service.
+aspect:  service
+Distances: [ 9.  1.  8.  8.  8.  1.  9.  1.  1. 10.  1.  7.  7.  7.  6.  7.  7.  9.
+  8.  9. 11. 10.  7.  6.  5.  4.  4.  3.  2.  2.  1.  1.  1.]
+The closest word to 'service' is: can
+The closest second word to 'service' is: walk
+The closest third word to 'service' is: in
+The closest fourth word to 'service' is: get
+While the potential opinion words are: [other, gone, 's, romantic, heaven, crowded, great]
+
+expected:  negative
+result:  positive
+context:  if your looking for nasty high priced food with a dash of ghetto scenery cheap bx ass this is the place to be!!
+aspect:  scenery
+Distances: [5. 5. 4. 5. 1. 1. 1. 6. 3. 3. 2. 1. 1. 0. 1. 6. 5. 6. 5. 7. 1. 8. 7.]
+The closest word to 'scenery' is: of
+The closest second word to 'scenery' is: ghetto
+The closest third word to 'scenery' is: scenery
+The closest fourth word to 'scenery' is: cheap
+While the potential opinion words are: [nasty, high, priced, cheap, place]
+
+expected:  positive
+result:  negative
+context:  the french fries -- with the kalmata dip were terrific!
+aspect:  french fries -- with the kalmata dip
+Distances: [1. 0. 0. 0. 0. 0. 0. 0. 1. 1.]
+The closest word to 'french fries -- with the kalmata dip' is: fries
+The closest second word to 'french fries -- with the kalmata dip' is: --
+The closest third word to 'french fries -- with the kalmata dip' is: with
+The closest fourth word to 'french fries -- with the kalmata dip' is: the
+While the potential opinion words are: [french, terrific]
+
+expected:  negative
+result:  positive
+context:  this place has the strangest menu and the restaurants tries too hard to make fancy food.
+aspect:  menu
+Distances: [3. 2. 1. 1. 1. 0. 1. 4. 3. 2. 1. 1. 4. 3. 1. 4.]
+The closest word to 'menu' is: has
+The closest second word to 'menu' is: the
+The closest third word to 'menu' is: strangest
+The closest fourth word to 'menu' is: menu
+While the potential opinion words are: [strangest, too, hard, fancy]
+
+expected:  negative
+result:  positive
+context:  this place has the strangest menu and the restaurants tries too hard to make fancy food.
+aspect:  food
+Distances: [5. 4. 3. 5. 1. 4. 5. 4. 3. 2. 1. 1. 2. 1. 1. 0.]
+The closest word to 'food' is: strangest
+The closest second word to 'food' is: menu
+The closest third word to 'food' is: and
+The closest fourth word to 'food' is: the
+While the potential opinion words are: [strangest, too, hard, fancy]
+
+expected:  negative
+result:  positive
+context:  the appetizers are ok, but the service is slow.
+aspect:  service
+Distances: [5. 4. 3. 1. 4. 4. 0. 0. 2.]
+While the potential opinion words are: [ok, slow]
+
+expected:  positive
+result:  negative
+context:  don't get me wrong - sushi was good, just not fantastic.
+aspect:  sushi
+Distances: [4. 1. 3. 4. 1. 0. 0. 1. 1. 3. 1.]
+The closest word to 'sushi' is: was
+The closest second word to 'sushi' is: good,
+The closest third word to 'sushi' is: just
+The closest fourth word to 'sushi' is: not
+While the potential opinion words are: [wrong, was, good, just, fantastic]
+
+expected:  positive
+result:  neutral
+context:  but, the filet mignon was not very good at all cocktail hour includes free appetizers (nice non-sushi selection).
+aspect:  non-sushi selection
+Distances: [5. 5. 6. 6. 5. 4. 1. 1. 1. 5. 7. 7. 6. 3. 1. 2. 0. 1.]
+The closest word to 'non-sushi selection' is: at
+The closest second word to 'non-sushi selection' is: all
+The closest third word to 'non-sushi selection' is: cocktail
+The closest fourth word to 'non-sushi selection' is: hour
+While the potential opinion words are: [very, good, free, nice, non, -, sushi]
+
+expected:  positive
+result:  neutral
+context:  but, the filet mignon was not very good at all cocktail hour includes free appetizers (nice non-sushi selection).
+aspect:  appetizers
+Distances: [4. 4. 5. 5. 4. 3. 1. 1. 1. 4. 6. 6. 5. 2. 1. 0. 3. 1.]
+The closest word to 'appetizers' is: at
+The closest second word to 'appetizers' is: all
+The closest third word to 'appetizers' is: cocktail
+The closest fourth word to 'appetizers' is: hour
+While the potential opinion words are: [very, good, free, nice, non, -, sushi]
+
+expected:  negative
+result:  positive
+context:  slow service, but when you're hanging around with groups of 10 or 20, who really notices?
+aspect:  service
+Distances: [1. 0. 1. 1. 1. 2. 2. 1. 1. 2. 3. 4. 5. 6. 6. 4.]
+The closest word to 'service' is: slow
+The closest second word to 'service' is: service,
+The closest third word to 'service' is: but
+The closest fourth word to 'service' is: when
+While the potential opinion words are: [slow, when, around, really]
+
+expected:  negative
+result:  positive
+context:  the room is a little plain, but it's difficult to make such a small place exciting and i would not suggest that as a reason not to go.
+aspect:  room
+Distances: [1. 0. 1. 4. 3. 1. 2. 2. 3. 2. 1. 4. 3. 6. 6. 1. 5. 1. 2. 3. 3. 1. 2. 3.
+ 3. 5. 4. 1.]
+The closest word to 'room' is: the
+The closest second word to 'room' is: room
+The closest third word to 'room' is: is
+The closest fourth word to 'room' is: a
+While the potential opinion words are: [plain, difficult, small, exciting]
+
+expected:  positive
+result:  negative
+context:  prices even outside of restaurant week were great.
+aspect:  prices
+Distances: [0. 1. 1. 2. 4. 3. 1. 1.]
+The closest word to 'prices' is: even
+The closest second word to 'prices' is: outside
+The closest third word to 'prices' is: of
+The closest fourth word to 'prices' is: restaurant
+While the potential opinion words are: [even, outside, great]
+
+expected:  positive
+result:  negative
+context:  a small, outdoor eating area makes for a private, comfortable space to study alone or meet up with friends.
+aspect:  space
+Distances: [5. 1. 5. 1. 1. 4. 3. 2. 2. 1. 0. 1. 0. 3. 2. 1. 3. 3. 4.]
+The closest word to 'space' is: study
+The closest second word to 'space' is: alone
+The closest third word to 'space' is: or
+The closest fourth word to 'space' is: meet
+While the potential opinion words are: [small, outdoor, eating, private, comfortable, alone]
+
+expected:  negative
+result:  neutral
+context:  i have eaten here on a different occasion - the food is mediocre for the prices.
+aspect:  prices
+Distances: [5. 5. 1. 1. 5. 7. 1. 6. 4. 5. 4. 3. 1. 1. 1. 0.]
+The closest word to 'prices' is: eaten
+The closest second word to 'prices' is: here
+The closest third word to 'prices' is: on
+The closest fourth word to 'prices' is: a
+While the potential opinion words are: [eaten, here, different, mediocre]
+
+expected:  negative
+result:  positive
+context:  anyway, the owner was fake.
+aspect:  owner
+Distances: [1. 3. 0. 0. 2.]
+While the potential opinion words are: [anyway, fake]
+

@@ -11,3 +11,5 @@ state_dict/lstm_restaurant.pkl
 state_dict/bilstmattn_restaurant.pkl
 state_dict/aoa_restaurant.pkl
 state_dict/aoa_laptop.pkl
+embedding_data/dataset_datatest_data.pkl
+embedding_data/dataset_datatrain_data.pkl
